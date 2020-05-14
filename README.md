@@ -5,7 +5,6 @@ Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis 
 Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
 
 Dat kan visueel sterker. 
-
 En dat gaan jullie doen.
 
 ## Leerdoelen
