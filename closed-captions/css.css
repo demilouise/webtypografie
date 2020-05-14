@@ -9,7 +9,7 @@ body{
 
 iframe{
 	display: block;
-	margin: 60px auto 0px;
+	margin: 80px auto 0px;
 }
 
 #closed-captions p {
@@ -43,7 +43,8 @@ iframe{
     0 0 90px #0ff,
     0 0 100px #0ff,
     0 0 150px #0ff;
-    margin-top: -405px;
+    margin-top: -500px;
+    font-size: 1em;
 }
 
 .voice1h {
@@ -57,28 +58,28 @@ iframe{
     0 0 80px #0ff,
     0 0 90px #0ff,
     0 0 150px #0ff;
-    margin-top: -405px;
+    margin-top: -500px;
     font-size: 1em;
 }
 
 .voice2 {
     font-family: "Brenner Sans Regular" ;
     color: wheat;
-    margin-top: -75px;
+    margin-top: -85px;
     font-size: 1.5em;
 }
 
 .voice2n {
     font-family: "Brenner Sans Medium" ;
     color: wheat;
-    margin-top: -75px;
+    margin-top: -85px;
     font-size: 1.5em;
 }
 
 .voice2h {
     font-family: "Brenner Sans Bold" ;
     color: wheat;
-    margin-top: -75px;
+    margin-top: -85px;
     font-size: 1.5em;
 }
 
@@ -93,9 +94,10 @@ iframe{
 .voice4 {
     font-family: "Brenner Regular" ;
     color: lightgrey;
-    margin-top: -75px;
+    margin-top: -70px;
     font-size: 1.5em;
 }
+
 
 /* -------------------- Zin 1 -------------------- */
 
@@ -343,16 +345,16 @@ iframe{
 /* scherm: kleiner dan 2000*/
 @media screen and (max-width: 2000px) {
     #video-placeholder {
-        width: 800px;
-        height: 400px;
+        width: 1000px;
+        height: 500px;
     }
 }
 
 /* scherm: kleiner dan 2000*/
 @media screen and (max-width: 2000px) {
     #video-placeholder {
-        width: 800px;
-        height: 400px;
+        width: 1000px;
+        height: 500px;
     }
 }      
     
@@ -360,17 +362,28 @@ iframe{
 @media screen and (max-width: 1024px) {
     #video-placeholder {
         width: 800px;
-        height: 400px;
-    }
-       
-}
+        height: 400px; }
+        .voice1 { margin-top: -410px; }
+        .voice1h { margin-top: -410px; }
+        .voice2 { margin-top: -75px; }
+        .voice2n { margin-top: -75px; }
+        .voice2h { margin-top: -75px; }
+        .voice4 { margin-top: -30px; }
+       }
 
 /* tablet: kleiner dan 768*/
 @media screen and (max-width: 768px) {
     #video-placeholder {
-        width: 400px;
-        height: 200px;
+        width: 600px;
+        height: 300px;
     }
+        .voice1 { margin-top: -310px; }
+        .voice1h { margin-top: -310px; }
+        .voice2 { margin-top: -55px; }
+        .voice2n { margin-top: -55px; }
+        .voice2h { margin-top: -55px; }
+        .voice4 { margin-top: -20px; }
+
         #closed-captions p {
         font-size: 1em;
     }
