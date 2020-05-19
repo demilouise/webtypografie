@@ -166,6 +166,31 @@ iframe{
     background-size: cover;
 }
 
+/* 0 WERKT NIET!!!! TEXT: spannend muziek */
+.sound0:before {
+    content: "[spannende muziek]";
+    position: absolute;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    color: lightgray;
+    font-family: "Brenner Mono Light";
+    font-size: 0.75em;
+    animation: fadeOut 9s forwards;
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+}
+
 /* 9 gevanings alarm deuren */
 .sound1 {
     background-image: url(images/blue.gif);
