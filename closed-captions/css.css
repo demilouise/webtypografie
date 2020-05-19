@@ -20,6 +20,7 @@ iframe{
     width: 94%;
     text-align: center;
     padding: 1.5em;
+	pointer-events: none;
 }
 
 #closed-captions .on {
@@ -34,7 +35,7 @@ iframe{
 /* -------------------- Typografie -------------------- */
 .voice1 {
     font-family: "Brenner Mono Regular" ;
-	text-shadow: 
+	text-shadow:
     0 0 5px #fff,
     0 0 10px #fff,
     0 0 20px #fff,
@@ -49,7 +50,7 @@ iframe{
 
 .voice1h {
     font-family: "Brenner Mono Bold" ;
-  	text-shadow: 
+  	text-shadow:
     0 0 5px #fff,
     0 0 1px #fff,
     0 0 20px #fff,
@@ -157,6 +158,26 @@ iframe{
 }
 
 /* -------------------- Achtergrondgeluiden -------------------- */
+/* Buitenste box met sound captions */
+.closed-captions {
+	position: absolute;
+	width: 100%;
+	top: 70px;
+}
+/* p elementen van de sound captions */
+.closed-captions p {
+	opacity: 0;
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	position: absolute;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-family: "Brenner Mono Light";
+    font-size: 0.75em;
+}
 
 /* 0 spannend intro */
 .sound0 {
@@ -166,45 +187,32 @@ iframe{
     background-size: cover;
 }
 
-/* 0 WERKT NIET!!!! TEXT: spannend muziek */
-.sound0:before {
-    content: "[spannende muziek]";
-    position: absolute;
-    align-content: center;
-    width: 100%;
-    text-align: center;
-    color: lightgray;
-    font-family: "Brenner Mono Light";
-    font-size: 0.75em;
+.sound0 .sound-text0 {
     animation: fadeOut 9s forwards;
-
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    99% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
 }
 
 /* 9 gevanings alarm deuren */
-.sound1 {
+.sound1{
     background-image: url(images/blue.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.sound1 .sound-text1 {
+    animation: fadeOut 1s forwards;
+}
+
 /* 10 spannend intro */
-.sound2 {
+.sound2{
     background-image: url(images/alarm.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.sound2 .sound-text2 {
+    animation: fadeOut 2s forwards;
 }
 
 /* 12 sirene */
@@ -215,6 +223,10 @@ iframe{
     background-size: cover;
 }
 
+.sound3 .sound-text3 {
+    animation: fadeOut 1s forwards;
+}
+
 /* 13 spannend intro */
 .sound4 {
     background-image: url(images/blue.gif);
@@ -223,12 +235,21 @@ iframe{
     background-size: cover;
 }
 
+.sound4 .sound-text4 {
+    animation: fadeOut 3.5s forwards;
+}
+
+
 /* 16.5 bleep sec */
 .sound5 {
     background-image: url(images/motion.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.sound5 .sound-text5 {
+    animation: fadeOut 0.5s forwards;
 }
 
 /* 17 sec spannend intro */
@@ -239,6 +260,10 @@ iframe{
     background-size: cover;
 }
 
+.sound6 .sound-text6 {
+    animation: fadeOut 8.8s forwards;
+}
+
 /* 25.8 sec bleep */
 .sound7 {
     background-image: url(images/motion.gif);
@@ -246,6 +271,11 @@ iframe{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.sound7 .sound-text7 {
+    animation: fadeOut 0.5s forwards;
+}
+
 
 /* 26.3 sec spannend intro */
 .sound8 {
@@ -365,6 +395,20 @@ iframe{
 }
 
 
+
+/* keyframes */
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+	99% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
 /* -------------------- Responsive design -------------------- */
 
 /* scherm: kleiner dan 2000*/
@@ -381,8 +425,8 @@ iframe{
         width: 1000px;
         height: 500px;
     }
-}      
-    
+}
+
 /* laptop: kleiner dan 1024*/
 @media screen and (max-width: 1024px) {
     #video-placeholder {
@@ -412,9 +456,9 @@ iframe{
         #closed-captions p {
         font-size: 1em;
     }
-}       
+}
 
-/* mobiel: kleiner dan 414*/    
+/* mobiel: kleiner dan 414*/
 @media screen and (max-width: 414px) {
     #video-placeholder {
         width: 200px;
@@ -424,5 +468,3 @@ iframe{
         font-size: 0.5em;
     }
 }
-
-    
