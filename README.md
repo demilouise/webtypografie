@@ -66,12 +66,17 @@ Tijdens het vak ben ik steeds meer in detail gaan kijken naar de opdracht en heb
 
 ## Bronnen
 - [Bron Brenner font](https://github.com/brittrademaker/web-typography-18-19/blob/master/brenner.pdf.)
-- [Blade Runner](https://pngio.com/images/png-a938348.html)
 - [Neon Tekst Effect](https://codepen.io/AllThingsSmitty/pen/VzXrgY?editors=1100)
 - [Transform](https://codepen.io/vineethtrv/pen/XKKEgM?editors=0100)
 - [Animations](https://animista.net/)
 - [Shake](https://codepen.io/elrumordelaluz/pen/pHKcC)
 - [Shake text](https://codepen.io/rauldronca/pen/ZyNQPX?editors=1100)
-
-
-
+- [Explosion Glow GIF by Erica Anderson](https://media.giphy.com/media/26DN2OXtNbAzogbvO/giphy.gif)
+- [Trippy GIF by Pi-Slices](https://giphy.com/gifs/trippy-abstract-pi-slices-l0ExdDroBZXHASoBW)
+- [Lights Glow GIF By Erica Anderson](https://giphy.com/gifs/trippy-weird-black-2wW3IcGOpGHs6mphu5)
+- [3D Particles GIF By Ai Di Ti](https://giphy.com/gifs/lPHrJvdUC7ffW)
+- [Animation Render GIF By SimonFussenegger](https://giphy.com/gifs/animation-design-motion-xUPGcm1ufOrvUlAZ2w)
+- [Blue Grid GIF](https://giphy.com/gifs/perfect-loops-3h3yr4vwOced7pEGrb)
+- [Lights Glow GIF By Erica Anderson](https://giphy.com/gifs/trippy-weird-psychedelic-3oxHQy8tANyw2Wx7Dq)
+- [Pink Orange GIF By Erica Anderson](https://giphy.com/gifs/trippy-weird-psychedelic-3ohhwkciVuXOgX7z44)
+- [Blade Runner](https://pngio.com/images/png-a938348.html)
