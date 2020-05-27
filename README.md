@@ -19,20 +19,24 @@ In HTML heb ik de zinnen aangepast zodat ook de losse woorden zoals 'cells' netj
 Ik heb gekozen om gebruik te maken van het Brenner font met vele versies en varianten beschikbaar. Dit zie ik als een voordeel, want zo ben ik vrij met experimenteren en kan ik meerdere stemmen op verschillende manieren vormgeven. Duidelijk onderscheidt maken wie wat zegt en op welke manier is belangrijk. Praat iemand bijvoorbeeld aardig of heel hard? Ik heb de 4 verschillende stemmen een eigen Brenner fontvariatie gegeven, een eigen uiterlijk en positionering op het scherm.
 
 **Voice 1**
+
 Voice1 hard = Brenner Mono Bold
 Voice1 = Brenner Mono RegularDe AI stem is emotieloos en doet me denken een oud computerfont. Deze computerstem heeft een wit blauwe neon gloed gekregen. En komt direct boven het filmpje in beeld op de zwarte rand.
 
 **Voice 2**
+
 Voice2 hard = Brenner Sans Bold
 Voice2 beetje hard = Brenner Mono Medium
 Voice2 = Brenner Mono Regular
 De hoofdpersoon is een stoere en kalme man en krijgt een stevig font zonder schreef of decoratie. Omdat de hoofdpersoon eruit ziet als een mens heeft de typografie huidskleur gekregen als kleur. En komt in een grotere font-size, want om hem draait het. De zinnen komen direct onder het filmpje in beeld op de zwarte rand.
 
 **Voice 3**
+
 Voice3 hard = Brenner Slab Bold
 Het mannelijke bijfiguur scheld de hoofdpersoon uit. Ik interpreteer het als plagerig bedoelt. Brenner Slab, Display en Script zijn de minst serieuze fonts beschikbaar. Echter vind ik Display onleesbaar en Script te vrouwelijk. Het plagerige bijfiguur kan geen rood als kleur krijgen want dat is te alarmerend, oranje is dan iets rustiger, maar schreeuwt nog steeds om aandacht. De enige gesproken zin komt op het filmpje waar de man staat in beeld. Alsof hij het letterlijk roept.
 
 **Voice 4**
+
 Voice4 normaal = Brenner Regular
 Na de test spreekt een echte stem van een man. Hij is niet in beeld, maar komt formeel en een stuk aardiger over dan de computerstem. Brenner bestaat uit formele schreefletters en door het verschil in lijndikte komt de letter rustig en vriendelijk over. 
 De rustige man krijgt lichtgrijs als kleur, omdat dit in contrast met de zwarte achtergrond rustiger overkomt dan wit als kleur. Daarbij is grijs een neutrale en formele kleur. Iets lager onder het filmpje komen de teksten te staan. Door meer ruimte te nemen hiervoor komt het ook rustiger over.
