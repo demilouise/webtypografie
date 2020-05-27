@@ -8,14 +8,12 @@ body {
 	padding: 0px;
 }	
 
-/*header {
+header {
     width: 100%;
-	height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-	margin: 0px;
-	padding: 0px;
 }
 
 .logo {
@@ -35,12 +33,16 @@ body {
     margin-top: 2%;
 }
 
+img {
+    z-index: -1;
+}
+
 main {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}*/
+}
 
 #video-placeholder {
     width: 850px;
@@ -575,8 +577,8 @@ p43.on, .p44.on, .p45.on{
     0% {
         transform: scale(1.3)
     }
-    50% {
-        transform: scale(0.6)
+    10% {
+        transform: scale(1)
     }
     100% {
         transform: scale(0)
