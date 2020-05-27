@@ -8,6 +8,13 @@ body {
 	padding: 0px;
 }	
 
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo {
     background-image: url(images/alarm.gif);
     background-position: center;
