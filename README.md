@@ -16,7 +16,7 @@ Ik heb me eerst gefocust op het visualiseren van de omgevingsgeluiden. Hiervoor 
 In HTML heb ik de zinnen aangepast zodat ook de losse woorden zoals 'cells' netjes op een aparte paragraaf kwamen. Dit was een heel werk want de timing moest ik van elke zin toen handmatig aanpassen in captions.js. 
 
 **Typografische onderbouwing**
-Ik heb gekozen om gebruik te maken van het Brenner font met vele versies en varianten beschikbaar. Dit zie ik als een voordeel, want zo ben ik vrij met experimenteren en kan ik meerdere stemmen op verschillende manieren vormgeven. Duidelijk onderscheidt maken wie wat zegt en op welke manier is belangrijk. Praat iemand bijvoorbeeld aardig of heel hard? Ik heb de 4 verschillende stemmen een eigen Brenner fontvariatie gegeven, een eigen uiterlijk en positionering op het scherm.[Bron Brenner font] https://github.com/brittrademaker/web-typography-18-19/blob/master/brenner.pdf. 
+Ik heb gekozen om gebruik te maken van het Brenner font met vele versies en varianten beschikbaar. Dit zie ik als een voordeel, want zo ben ik vrij met experimenteren en kan ik meerdere stemmen op verschillende manieren vormgeven. Duidelijk onderscheidt maken wie wat zegt en op welke manier is belangrijk. Praat iemand bijvoorbeeld aardig of heel hard? Ik heb de 4 verschillende stemmen een eigen Brenner fontvariatie gegeven, een eigen uiterlijk en positionering op het scherm.
 
 **Voice 1**
 Voice1 hard = Brenner Mono Bold
@@ -65,6 +65,13 @@ Zo wat was dit vak een uitdaging op meerdere vlakken! Code was helemaal nieuw vo
 Tijdens het vak ben ik steeds meer in detail gaan kijken naar de opdracht en heb ik met veel css functies geexperimenteerd. Ik ben erg tevreden met mijn eindresultaat. 
 
 ## Bronnen
+- [Bron Brenner font](https://github.com/brittrademaker/web-typography-18-19/blob/master/brenner.pdf.)
 - [Blade Runner](https://pngio.com/images/png-a938348.html)
-- [Neon tekst effect](https://codepen.io/AllThingsSmitty/pen/VzXrgY?editors=1100)
+- [Neon Tekst Effect](https://codepen.io/AllThingsSmitty/pen/VzXrgY?editors=1100)
+- [Transform](https://codepen.io/vineethtrv/pen/XKKEgM?editors=0100)
+- [Animations](https://animista.net/)
+- [Shake](https://codepen.io/elrumordelaluz/pen/pHKcC)
+- [Shake text](https://codepen.io/rauldronca/pen/ZyNQPX?editors=1100)
+
+
 
