@@ -2,7 +2,7 @@
 
 # [Link naar fragment](https://demilouise.github.io/webtypografie/closed-captions/)
 
-## Opdracht
+## Study The Situation (The Exclusive Design Principles)
 Maak een film fragment visueel sterker voor Marie. Marie is doof en mist veel informatie bij het kijken van films zoals sfeer, beleving en emotie die verschillende stemmen dragen of omgevingsgeluiden bevatten. Met closed caption, worden geluiden beschreven in de ondertiteling zoals iemand lacht en snikgeluid op de achtergrond.  Al deze ondertiteling staat standaard in hetzelfde neutrale lettertype. Voor Marie is dit vaag, abstract en het brengt geen emoties over.
 
 ## Leerdoelen
@@ -11,9 +11,8 @@ Maak een film fragment visueel sterker voor Marie. Marie is doof en mist veel in
 3. Je kan je typografische keuzes onderbouwen.
 4. Je hebt het experiment niet geschuwd.
 
-## Versie 1
-Ik heb me eerst gefocust op het visualiseren van de omgevingsgeluiden. Hiervoor heb ik passende GIF'jes gekozen en als achtergrond geplaatst. Elke GIF heb ik plaatst op een aparte sound. Toen ik na het toevoegen van de GIF's het filmpje bekeek zonder geluid, was ik best tevreden met het vastleggen van de spannende si-fi sfeer in de details. Je kan zonder geluid zo heel goed omgevingsgeluiden nabootsen. Er gebeurt nu heel veel op de achtergrond met beweging, verschil in snelheid en in kleur. Om die reden wil ik de ondertiteling rustig houden. Anders weet je niet meer waar je naar moet kijken.
-In HTML heb ik de zinnen aangepast zodat ook de losse woorden zoals 'cells' netjes op een aparte paragraaf kwamen. Dit was een heel werk want de timing moest ik van elke zin toen handmatig aanpassen in captions.js. 
+## Versie 1 - Ignore Conventions (The Exclusive Design Principles)
+Ik heb me eerst gefocust op het visualiseren van de omgevingsgeluiden. Hiervoor heb ik passende GIF'jes gekozen en als achtergrond geplaatst. Normaal zie je achter een video nooit beelden. Elke GIF heb ik plaatst op een aparte sound. Toen ik na het toevoegen van de GIF's het filmpje bekeek zonder geluid, was ik best tevreden met het vastleggen van de spannende si-fi sfeer in de details. Je kan zonder geluid zo heel goed omgevingsgeluiden nabootsen. Er gebeurt nu heel veel op de achtergrond met beweging, verschil in snelheid en in kleur. Om die reden wil ik de ondertiteling rustig houden en een vaste plek geven. Anders weet je niet meer waar je naar moet kijken. In HTML heb ik de zinnen aangepast zodat ook de losse woorden zoals 'cells' netjes op een aparte paragraaf kwamen. Dit was een heel werk want de timing moest ik van elke zin toen handmatig aanpassen in captions.js. 
 
 **Typografische onderbouwing**
 Ik heb gekozen om gebruik te maken van het Brenner font met vele versies en varianten beschikbaar. Dit zie ik als een voordeel, want zo ben ik vrij met experimenteren en kan ik meerdere stemmen op verschillende manieren vormgeven. Duidelijk onderscheidt maken wie wat zegt en op welke manier is belangrijk. Praat iemand bijvoorbeeld aardig of heel hard? Ik heb de 4 verschillende stemmen een eigen Brenner fontvariatie gegeven, een eigen uiterlijk en positionering op het scherm.
@@ -41,20 +40,20 @@ Voice4 normaal = Brenner Regular
 Na de test spreekt een echte stem van een man. Hij is niet in beeld, maar komt formeel en een stuk aardiger over dan de computerstem. Brenner bestaat uit formele schreefletters en door het verschil in lijndikte komt de letter rustig en vriendelijk over. 
 De rustige man krijgt lichtgrijs als kleur, omdat dit in contrast met de zwarte achtergrond rustiger overkomt dan wit als kleur. Daarbij is grijs een neutrale en formele kleur. Iets lager onder het filmpje komen de teksten te staan. Door meer ruimte te nemen hiervoor komt het ook rustiger over.
 
-## Feedback versie 1 
+### Feedback versie 1 
 **Marie**
 Wauw! Ik krijg echt een VR-ervaring. Duidelijke typografie. De bewegende achtergronden zien er gaaf uit en overheersen, vergelijkbaar met als geluid zou overheersen. Maar misschien nu iets te veel, de verhouding is scheef. Je zou de video iets groter kunnen maken of de achtergrond kleiner. Daarbij weet ik nu nog niet goed wat voor geluiden het precies zijn. Ik vind het wel fijn om een geluidsomschrijving er bij te kunnen lezen.
 
-## Versie 2
+## Versie 2 - Prioritise identity (The Exclusive Design Principles)
 Video is groter en de eerste 30 sec heeft geluidsomschrijving gekregen. Ik heb express niet de hele video geluidsomschrijvingen gegeven want ik heb mijn twijfels erover. Ik vind het veel te abstract om een geluid een naam te geven en het leidt af van de ondertiteling. Ik heb de geluidsomschrijving klein gemaakt en bovenaan de video gezet. 
 
-## Feedback versie 2
+### Feedback versie 2
 **Marie** 
 Mooie combinatie met de video en achtergrond, laat goed de sfeer zien. Ik vind het heel goed zo, alleen de geluidsomschrijving zijn nog wat te klein.
 **Vasilis (docent)**
 Ik snap je twijfel over de geluidsomschrijving, probeer wat anders te bedenken. Verder ben je goed bezig, probeer nog een nieuwe iteratieslag te maken.
 
-## Versie 3
+## Versie 3 - Add Nonsense (The Exclusive Design Principles)
 - Marie sprak zichzelf eigelijk tegen, want geluidsomgeschrijvingen zijn voor haar niet wenselijk en geven geen sfeer mee. Om het gevoel van marie weg te nemen dat ze nog wat mist ga ik experimenteren met het bewegen van het video frame. De geluidsomschrijvingen verwijder ik. 
 - Ik ken het filmpje nu erg goed en ik merk dat de hoofdpersoon soms wat onzeker is of gefrusteerd. Dit is een klein detail en hoor ik soms aan zijn stem doordat hij wat langer de tijd neemt om wat te zeggen of omdat zijn stem een beetje hapert. Om Marie dit mee te geven heb ik voice2 en voice 2 beetje hard een kleine trilling gegeven. Als ik dit te overdreven deed dan ging het ten kosten van de leesbaarheid.
 - Na ' Why don't you say that three times: "within cells interlinked"' heb ik een extra aanzet gegeven aan de 3 paragrafen, want het kost de hoofdpersoon heel veel inspanning om dit te zeggen. De text wordt kort wat groter geanimeerd. Ik heb geexperimenteerd om dat ook bij andere paragrafen toe te passen, maar het werd mij veel te druk en typografisch heb ik al goed duidelijk gemaakt wanneer iemand iets hard zegt. 
@@ -71,7 +70,7 @@ Zo wat was dit vak een uitdaging op meerdere vlakken! Code was helemaal nieuw vo
 
 Tijdens het vak ben ik steeds meer in detail gaan kijken naar de opdracht en heb ik met veel css functies geexperimenteerd. Ik ben erg tevreden met mijn eindresultaat. 
 
-## Bronnen
+### Bronnen
 - [Bron Brenner font](https://github.com/brittrademaker/web-typography-18-19/blob/master/brenner.pdf.)
 - [Neon Tekst Effect](https://codepen.io/AllThingsSmitty/pen/VzXrgY?editors=1100)
 - [Transform](https://codepen.io/vineethtrv/pen/XKKEgM?editors=0100)
