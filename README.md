@@ -13,7 +13,7 @@ Maak een film fragment visueel sterker voor Marie. Marie is doof en mist veel in
 
 ## Versie 1
 Ik heb me eerst gefocust op het visualiseren van de omgevingsgeluiden. Hiervoor heb ik passende GIF'jes gekozen en als achtergrond geplaatst. Elke GIF heb ik plaatst op een aparte sound. Toen ik na het toevoegen van de GIF's het filmpje bekeek zonder geluid, was ik best tevreden met het vastleggen van de spannende si-fi sfeer in de details. Je kan zonder geluid zo heel goed omgevingsgeluiden nabootsen. Er gebeurt nu heel veel op de achtergrond met beweging, verschil in snelheid en in kleur. Om die reden wil ik de ondertiteling rustig houden. Anders weet je niet meer waar je naar moet kijken.
-In HTML heb ik de zinnen aangepast zodat ook de losse woorden zoals 'cells' netjes op een aparte paragraaf kwamen. Dit was een heel werk want de timing moest ik van elke zin toen handmatig aanpassen. 
+In HTML heb ik de zinnen aangepast zodat ook de losse woorden zoals 'cells' netjes op een aparte paragraaf kwamen. Dit was een heel werk want de timing moest ik van elke zin toen handmatig aanpassen in captions.js. 
 
 **Typografische onderbouwing**
 Ik heb gekozen om gebruik te maken van het Brenner font met vele versies en varianten beschikbaar. Dit zie ik als een voordeel, want zo ben ik vrij met experimenteren en kan ik meerdere stemmen op verschillende manieren vormgeven. Duidelijk onderscheidt maken wie wat zegt en op welke manier is belangrijk. Praat iemand bijvoorbeeld aardig of heel hard? Ik heb de 4 verschillende stemmen een eigen Brenner fontvariatie gegeven, een eigen uiterlijk en positionering op het scherm.[Bron Brenner font] https://github.com/brittrademaker/web-typography-18-19/blob/master/brenner.pdf. 
@@ -45,20 +45,26 @@ Video is groter en de eerste 30 sec heeft geluidsomschrijving gekregen. Ik heb e
 **Marie** 
 Mooie combinatie met de video en achtergrond, laat goed de sfeer zien. Ik vind het heel goed zo, alleen de geluidsomschrijving zijn nog wat te klein.
 **Vasilis (docent)**
-Ik snap je twijfel over de geluidsomschrijving, probeer het anders op te lossen. Verder je bent goed bezig, probeer nog een iteratieslag te maken.
+Ik snap je twijfel over de geluidsomschrijving, probeer wat anders te bedenken. Verder ben je goed bezig, probeer nog een nieuwe iteratieslag te maken.
 
 ## Versie 3
 - Marie sprak zichzelf eigelijk tegen, want geluidsomgeschrijvingen zijn voor haar niet wenselijk en geven geen sfeer mee. Om het gevoel van marie weg te nemen dat ze nog wat mist ga ik experimenteren met het bewegen van het video frame. De geluidsomschrijvingen verwijder ik. 
 - Ik ken het filmpje nu erg goed en ik merk dat de hoofdpersoon soms wat onzeker is of gefrusteerd. Dit is een klein detail en hoor ik soms aan zijn stem doordat hij wat langer de tijd neemt om wat te zeggen of omdat zijn stem een beetje hapert. Om Marie dit mee te geven heb ik voice2 en voice 2 beetje hard een kleine trilling gegeven. Als ik dit te overdreven deed dan ging het ten kosten van de leesbaarheid.
-- Elke sound had al een GIF gekregen nu beweegt het videoframe af en toe om dit te versterken. In het intro wordt de video 2x doorzichtig als een soort hartslag die pompt. Het begin is namelijk spannend. Elk piep geluid tijdens het fragment is een hoog onaagenaam en aanwezig geluid, daarom gaat het videoframe ook mee. Het fraBijvoorbeeld bij het interview wordt de video heel langzaam iets groter. Dit zorgt voor een hyperfocus. Je wordt in het beeld gezogen maar heel voorzichtig en dit past perfect bij de bewegende achtergronden (GIF's). Na het eerste interview deel is er een gevoel van opluchtig en rust. De video is minder helder in kleur en weer kleiner geworden. 
+- Na ' Why don't you say that three times: "within cells interlinked"' heb ik een extra aanzet gegeven aan de 3 paragrafen, want het kost de hoofdpersoon heel veel inspanning om dit te zeggen. De text wordt kort wat groter geanimeerd. Ik heb geexperimenteerd om dat ook bij andere paragrafen toe te passen, maar het werd mij veel te druk en typografisch heb ik al goed duidelijk gemaakt wanneer iemand iets hard zegt. 
+- Elke sound had al een GIF gekregen nu beweegt het videoframe af en toe om dit te versterken. In het intro wordt de video 2x doorzichtig als een soort hartslag die pompt. Het begin is namelijk spannend. 
+Elk piep geluid tijdens het fragment is een hoog onaagenaam en aanwezig geluid, daarom gaat het videoframe ook mee. Het frame verkleind heel kort, dan moeten je ogen zich even bijstellen en aanpassen net als je gehoor zou doen. 
+Ik heb ook een shake animatie gebruikt bij 2 andere geluiden die meer een korte verstoring zijn dan dat je er van zou moeten schrikken of oplettend worden. 
+Bij de Fuck-off opmerking van voice3 gaat het frame naar rechts, dus in de richting van het geluid mee.
+Bij het interview wordt de video heel langzaam iets groter. Dit zorgt voor een hyperfocus. Je wordt in het beeld gezogen maar heel voorzichtig en dit past perfect bij de bewegende achtergronden (GIF's). Na het eerste interview deel is er een gevoel van opluchtig en rust. De video is minder helder in kleur en weer kleiner geworden. Na het tweede interview deel verdwijnd het frame in de zwarte achtergrond.
+- Het bewerkte fragment verdient een spannende aankondinging. Ik vind het namelijk heel saai hoe nu er een youtube video staat te wachten tot dat er op geklikt wordt. Ik heb een PNG gemaakt met titel van de film een een pijl naar beneden.
+- Om het geheel clean te maken heb ik met een clip-path de youtube player functies weg gehaald. De focus is nu alleen op het afspelen.
 
 ## Reflectie
-Voor dit vak had ik geen enkele kennis van code, nog nooit gezien of meegewerkt. Ik kom van de opleiding Product Design en volg nu deze minor ter verbreding van mijn kennis. Ik ben erg trots op wat ik allemaal heb geleerd dit vak. Ik kan zeggen dat ik alle 4 de leerdoelen heb behaald.
+Zo wat was dit vak een uitdaging op meerdere vlakken! Code was helemaal nieuw voor mij, ik had het nog nooit gezien of meegewerkt. Ik kom van de opleiding Product Design en volg nu deze minor ter verbreding van mijn kennis. Ik heb uren aan tutorials bekeken, veel voorbeelden op css-tricks.com gezien en veel vragen aan medestudenten gesteld. Ik ben erg trots op wat ik allemaal heb geleerd over technische vormgeving. Ik vond het heel erg motiverend dat bij dit vak, voor het eerst in de minor, voor een eindgebruiker werd ontworpen. Ik was zo enthousiast dat ik de bij het maken van mijn eerste versie 200% gegeven had. Achteraf had ik het beter wat kunnen spreiden. Want bij de 2de test had ik weinig aangepast. En ik kreeg van Marie, medestudenten en de docent weinig feedback wat beter kon. Dat is natuurlijk positief, maar ik heb mezelf echt heel erg moeten uitdagen om opnieuw na te denken wat kan ik nog toevoegen. 
 
-In de meivakantie heb ik uren linkedIn learning tutorials gekeken en later op youtube kon ik hele specifieke tutorials vinden. Dit gaf mij een basis. De vele voorbeeld die ik vond op codepen.io en css-tricks.com tijdens het vak waren heel nuttig. Hulp vragen aan medestudenten was in het begin van het vak erg lastig, maar later lukte dat wel en dat was erg fijn. Ik heb ook met een medestudent buiten de les om afgesproken om elkaar puur feedback te geven en samen te brainstormen wat kan nog worden toegevoegd. 
-
-Ik ben erg tevreden met mijn eindresultaat. Tijdens het vak kwamen er steeds meer functies bij die ik voor elkaar kreeg. En het hele interactive concept past bij de orginele poster. 
+Tijdens het vak ben ik steeds meer in detail gaan kijken naar de opdracht en heb ik met veel css functies geexperimenteerd. Ik ben erg tevreden met mijn eindresultaat. 
 
 ## Bronnen
-- [Voorbeeld switch](https://www.youtube.com/watch?v=_f036OpnuWo)
+- [Blade Runner](https://pngio.com/images/png-a938348.html)
+- [Neon tekst effect](https://codepen.io/AllThingsSmitty/pen/VzXrgY?editors=1100)
 
