@@ -12,10 +12,11 @@ Maak een film fragment visueel sterker voor Marie. Marie is doof en mist veel in
 4. Je hebt het experiment niet geschuwd.
 
 ## Versie 1
-Ik heb me eerst gefocust op het visualiseren van de omgevingsgeluiden. Hiervoor heb ik passende GIF'jes gekozen en als achtergrond geplaatst. Toen ik na het toevoegen van de GIF's het filmpje bekeek zonder geluid, was ik best tevreden met het vastleggen van de spannende si-fi sfeer in de details. Je kan zonder geluid zo heel goed omgevingsgeluiden nabootsen. Er gebeurt nu heel veel op de achtergrond met beweging, verschil in snelheid en in kleur. Om die reden wil ik de ondertiteling rustig houden. Anders weet je niet meer waar je naar moet kijken. Maar er moet wel duidelijk onderscheidt gemaakt worden wie wat zegt en op welke manier. Praat iemand bijvoorbeeld aardig of heel hard? Ik heb de 4 verschillende stemmen een eigen Brenner fontvariatie gegeven, een eigen uiterlijk en positionering op het scherm.
+Ik heb me eerst gefocust op het visualiseren van de omgevingsgeluiden. Hiervoor heb ik passende GIF'jes gekozen en als achtergrond geplaatst. Elke GIF heb ik plaatst op een aparte sound. Toen ik na het toevoegen van de GIF's het filmpje bekeek zonder geluid, was ik best tevreden met het vastleggen van de spannende si-fi sfeer in de details. Je kan zonder geluid zo heel goed omgevingsgeluiden nabootsen. Er gebeurt nu heel veel op de achtergrond met beweging, verschil in snelheid en in kleur. Om die reden wil ik de ondertiteling rustig houden. Anders weet je niet meer waar je naar moet kijken.
+In HTML heb ik de zinnen aangepast zodat ook de losse woorden zoals 'cells' netjes op een aparte paragraaf kwamen. Dit was een heel werk want de timing moest ik van elke zin toen handmatig aanpassen. 
 
-## Typografische onderbouwing
-Ik heb gekozen om gebruik te maken van het Brenner font met vele versies en varianten beschikbaar. Dit zie ik als een voordeel, want zo ben ik vrij met experimenteren en kan ik meerdere stemmen op verschillende manieren vormgeven. [Bron Brenner font] https://github.com/brittrademaker/web-typography-18-19/blob/master/brenner.pdf.
+**Typografische onderbouwing**
+Ik heb gekozen om gebruik te maken van het Brenner font met vele versies en varianten beschikbaar. Dit zie ik als een voordeel, want zo ben ik vrij met experimenteren en kan ik meerdere stemmen op verschillende manieren vormgeven. Duidelijk onderscheidt maken wie wat zegt en op welke manier is belangrijk. Praat iemand bijvoorbeeld aardig of heel hard? Ik heb de 4 verschillende stemmen een eigen Brenner fontvariatie gegeven, een eigen uiterlijk en positionering op het scherm.[Bron Brenner font] https://github.com/brittrademaker/web-typography-18-19/blob/master/brenner.pdf. 
 
 **Voice 1**
 Voice1 hard = Brenner Mono Bold
@@ -31,7 +32,7 @@ Het mannelijke bijfiguur scheld de hoofdpersoon uit. Ik interpreteer het als pla
 **Voice 4**
 Voice4 normaal = Brenner Regular
 Na de test spreekt een echte stem van een man. Hij is niet in beeld, maar komt formeel en een stuk aardiger over dan de computerstem. Brenner bestaat uit formele schreefletters en door het verschil in lijndikte komt de letter rustig en vriendelijk over. 
-De rustige man krijgt lichtgrijs als kleur, omdat dit in contrast met de zwarte achtergrond rustiger overkomt dan wit als kleur. Daarbij is grijs een neutrale en formele kleur. Iets lager onder het filmpje komen de teksten te staan. Door meer ruimte te nemen hiervoor komt het ook rustiger over. 
+De rustige man krijgt lichtgrijs als kleur, omdat dit in contrast met de zwarte achtergrond rustiger overkomt dan wit als kleur. Daarbij is grijs een neutrale en formele kleur. Iets lager onder het filmpje komen de teksten te staan. Door meer ruimte te nemen hiervoor komt het ook rustiger over.
 
 ## Feedback versie 1 
 **Marie**
@@ -47,5 +48,17 @@ Mooie combinatie met de video en achtergrond, laat goed de sfeer zien. Ik vind h
 Ik snap je twijfel over de geluidsomschrijving, probeer het anders op te lossen. Verder je bent goed bezig, probeer nog een iteratieslag te maken.
 
 ## Versie 3
-Marie sprak zichzelf eigelijk tegen, want geluidsomgeschrijvingen zijn voor haar niet wenselijk en geven geen sfeer mee. Om het gevoel van marie weg te nemen dat ze nog wat mist ga ik experimenteren met het bewegen van het video frame.
+- Marie sprak zichzelf eigelijk tegen, want geluidsomgeschrijvingen zijn voor haar niet wenselijk en geven geen sfeer mee. Om het gevoel van marie weg te nemen dat ze nog wat mist ga ik experimenteren met het bewegen van het video frame. De geluidsomschrijvingen verwijder ik. 
+- Ik ken het filmpje nu erg goed en ik merk dat de hoofdpersoon soms wat onzeker is of gefrusteerd. Dit is een klein detail en hoor ik soms aan zijn stem doordat hij wat langer de tijd neemt om wat te zeggen of omdat zijn stem een beetje hapert. Om Marie dit mee te geven heb ik voice2 en voice 2 beetje hard een kleine trilling gegeven. Als ik dit te overdreven deed dan ging het ten kosten van de leesbaarheid.
+- Elke sound had al een GIF gekregen nu beweegt het videoframe af en toe om dit te versterken. In het intro wordt de video 2x doorzichtig als een soort hartslag die pompt. Het begin is namelijk spannend. Elk piep geluid tijdens het fragment is een hoog onaagenaam en aanwezig geluid, daarom gaat het videoframe ook mee. Het fraBijvoorbeeld bij het interview wordt de video heel langzaam iets groter. Dit zorgt voor een hyperfocus. Je wordt in het beeld gezogen maar heel voorzichtig en dit past perfect bij de bewegende achtergronden (GIF's). Na het eerste interview deel is er een gevoel van opluchtig en rust. De video is minder helder in kleur en weer kleiner geworden. 
+
+## Reflectie
+Voor dit vak had ik geen enkele kennis van code, nog nooit gezien of meegewerkt. Ik kom van de opleiding Product Design en volg nu deze minor ter verbreding van mijn kennis. Ik ben erg trots op wat ik allemaal heb geleerd dit vak. Ik kan zeggen dat ik alle 4 de leerdoelen heb behaald.
+
+In de meivakantie heb ik uren linkedIn learning tutorials gekeken en later op youtube kon ik hele specifieke tutorials vinden. Dit gaf mij een basis. De vele voorbeeld die ik vond op codepen.io en css-tricks.com tijdens het vak waren heel nuttig. Hulp vragen aan medestudenten was in het begin van het vak erg lastig, maar later lukte dat wel en dat was erg fijn. Ik heb ook met een medestudent buiten de les om afgesproken om elkaar puur feedback te geven en samen te brainstormen wat kan nog worden toegevoegd. 
+
+Ik ben erg tevreden met mijn eindresultaat. Tijdens het vak kwamen er steeds meer functies bij die ik voor elkaar kreeg. En het hele interactive concept past bij de orginele poster. 
+
+## Bronnen
+- [Voorbeeld switch](https://www.youtube.com/watch?v=_f036OpnuWo)
 
