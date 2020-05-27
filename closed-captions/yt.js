@@ -20,6 +20,7 @@ function onYouTubeIframeAPIReady() {
 function initialize(){
 	// Update the controls on load
 	addSpans();
+   /* document.querySelector(header).classList.add('headerweg');*/
 }
 function addSpans(){
 	var ps = document.querySelectorAll('#closed-captions p');

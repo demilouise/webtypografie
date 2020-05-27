@@ -1,15 +1,56 @@
 
 /* -------------------- Algemeen -------------------- */
-body{
+body {
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}	
 	background-color: black;
 	color: white;
 	margin: 0px;
 	padding: 0px;
 }
 
+img {
+    position: fixed;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.logo {
+    background-image: url(images/alarm.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.logo > img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-placeholder {
+    width: 850px;
+    height: 550px;
+    clip-path: inset(60px 1px 55px 1px);
+}
+
 iframe{
 	display: block;
-	margin: 80px auto 0px;
+	margin: 30px auto;
 }
 
 #closed-captions p {
@@ -44,12 +85,12 @@ iframe{
     0 0 90px #0ff,
     0 0 100px #0ff,
     0 0 150px #0ff;
-    margin-top: -500px;
+    margin-top: -535px;
     font-size: 1em;
 }
 
 .voice1h {
-    font-family: "Brenner Mono Bold" ;
+    font-family: "Brenner Mono Medium" ;
   	text-shadow:
     0 0 5px #fff,
     0 0 1px #fff,
@@ -59,35 +100,37 @@ iframe{
     0 0 80px #0ff,
     0 0 90px #0ff,
     0 0 150px #0ff;
-    margin-top: -500px;
+    margin-top: -535px;
     font-size: 1em;
 }
 
 .voice2 {
     font-family: "Brenner Sans Regular" ;
     color: wheat;
-    margin-top: -85px;
+    margin-top: -157px;
     font-size: 1.5em;
+    animation: .1s text infinite alternate;
 }
 
 .voice2n {
     font-family: "Brenner Sans Medium" ;
     color: wheat;
-    margin-top: -85px;
+    margin-top: -157px;
     font-size: 1.5em;
+    animation: .1s text infinite alternate;
 }
 
 .voice2h {
     font-family: "Brenner Sans Bold" ;
     color: wheat;
-    margin-top: -85px;
+    margin-top: -157px;
     font-size: 1.5em;
 }
 
 .voice3 {
     font-family: "Brenner Slab Bold" ;
 	color: orange;
-    margin-top: -300px;
+    margin-top: -400px;
     margin-left: -150px;
     font-size: 1em;
 }
@@ -95,12 +138,15 @@ iframe{
 .voice4 {
     font-family: "Brenner Regular" ;
     color: lightgrey;
-    margin-top: -70px;
+    margin-top: -120px;
     font-size: 1.5em;
 }
 
 
-/* -------------------- Zin 1 -------------------- */
+
+
+
+/* -------------------- p0 -------------------- */
 
 .p0 span {
 	opacity: 0;
@@ -157,7 +203,13 @@ iframe{
 	transition: 0s 3.7s;
 }
 
+p43.on, .p44.on, .p45.on{
+  opacity: 1;
+  animation: textBig 0.3s ease-in-out;
+}
+
 /* -------------------- Achtergrondgeluiden -------------------- */
+
 /* Buitenste box met sound captions */
 .closed-captions {
 	position: absolute;
@@ -187,8 +239,17 @@ iframe{
     background-size: cover;
 }
 
-.sound0 .sound-text0 {
-    animation: fadeOut 9s forwards;
+.sound0 header {
+    display: none;
+}
+
+.sound0 main {
+    display: block;
+}
+
+
+.sound0 {
+    animation: doorschijn 4s forwards;
 }
 
 /* 9 gevanings alarm deuren */
@@ -197,10 +258,11 @@ iframe{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: -1;
 }
 
-.sound1 .sound-text1 {
-    animation: fadeOut 1s forwards;
+.sound1 {
+    animation: shaking 1s forwards;
 }
 
 /* 10 spannend intro */
@@ -211,10 +273,6 @@ iframe{
     background-size: cover;
 }
 
-.sound2 .sound-text2 {
-    animation: fadeOut 2s forwards;
-}
-
 /* 12 sirene */
 .sound3 {
     background-image: url(images/motion.gif);
@@ -223,8 +281,8 @@ iframe{
     background-size: cover;
 }
 
-.sound3 .sound-text3 {
-    animation: fadeOut 1s forwards;
+.sound3 {
+    animation: zoomInOut 0.5s ease forwards;
 }
 
 /* 13 spannend intro */
@@ -235,11 +293,6 @@ iframe{
     background-size: cover;
 }
 
-.sound4 .sound-text4 {
-    animation: fadeOut 3.5s forwards;
-}
-
-
 /* 16.5 bleep sec */
 .sound5 {
     background-image: url(images/motion.gif);
@@ -248,8 +301,8 @@ iframe{
     background-size: cover;
 }
 
-.sound5 .sound-text5 {
-    animation: fadeOut 0.5s forwards;
+.sound5 {
+    animation: zoom 0.5s ease forwards;
 }
 
 /* 17 sec spannend intro */
@@ -260,25 +313,25 @@ iframe{
     background-size: cover;
 }
 
-.sound6 .sound-text6 {
-    animation: fadeOut 8.8s forwards;
+/* 23 sec fuck-off */
+.sound7 {
+    animation: FuckOff 1.5s ease-in-out;
 }
 
 /* 25.8 sec bleep */
-.sound7 {
+.sound8 {
     background-image: url(images/motion.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sound7 .sound-text7 {
-    animation: fadeOut 0.5s forwards;
+.sound8 {
+    animation: zoomInOut 0.5s ease forwards;
 }
 
-
 /* 26.3 sec spannend intro */
-.sound8 {
+.sound9 {
    background-image: url(images/blue.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -286,31 +339,43 @@ iframe{
 }
 
 /* 31 sec storingsgeluid */
-.sound9 {
+.sound10 {
    background-image: url(images/3d.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* 32 sec bleep */
 .sound10 {
+    animation: shaking 1s forwards;
+}
+
+/* 32 sec bleep */
+.sound11 {
     background-image: url(images/motion.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* 32.5 sec interview deel 1 */
 .sound11 {
+    animation: zoomInOut 0.5s ease forwards;
+}
+
+/* 32.5 sec interview deel 1 */
+.sound12 {
     background-image: url(images/glow.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* 58 sec interview deel 2 */
 .sound12 {
+    animation: zoomIn 35s forwards;
+}
+
+/* 58 sec interview deel 2 */
+.sound13 {
    background-image: url(images/glow.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -318,7 +383,7 @@ iframe{
 }
 
 /* 67 sec interview deel 3 */
-.sound13 {
+.sound14 {
   background-image: url(images/trippy.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -326,31 +391,47 @@ iframe{
 }
 
 /* 75 sec stilte */
-.sound14 {
+.sound15 {
    background-image: url(images/niks.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* 86 sec spannend intro */
 .sound15 {
+     opacity: 0.5;
+}
+
+.sound15 {
+    animation: zoomInOut 2s ease forwards;
+}
+
+/* 86 sec spannend intro */
+.sound16 {
    background-image: url(images/blue.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* 87 sec spannende herhaling */
 .sound16 {
+     opacity: 1;
+}
+
+/* 87 sec spannende herhaling */
+.sound17 {
    background-image: url(images/fast.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* 103 sec 1:43 computerpiepje */
 .sound17 {
+    animation: zoomIn 40s forwards;
+}
+
+/* 103 sec 1:43 computerpiepje */
+.sound18 {
    background-image: url(images/block.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -358,7 +439,7 @@ iframe{
 }
 
 /* 104 versneld sec */
-.sound18 {
+.sound19 {
     background-image: url(images/fast.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -366,7 +447,7 @@ iframe{
 }
 
 /* 113 sec nog sneller */
-.sound19 {
+.sound20 {
     background-image: url(images/trippy.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -374,7 +455,7 @@ iframe{
 }
 
 /* 128 sec iets rustiger */
-.sound20 {
+.sound21 {
     background-image: url(images/fast.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -382,59 +463,141 @@ iframe{
 }
 
 /* 129.5 stilte */
-.sound21 {
+.sound22 {
      background-image: url(images/niks.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* 135 zwart */
-.sound22 {
-     opacity: 0;
+/* 135.5 zwart */
+.sound23 {
+     animation: zoomOut 0.5s 0.5s ease forwards;
 }
 
+/* -------------------- Keyframes -------------------- */
 
 
-/* keyframes */
-@keyframes fadeOut {
-	0% {
-		opacity: 1;
-	}
-	99% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
+@keyframes text {
+  0% { transform: skewX(0deg); }
+  5% { transform: skewX(3deg); }
+  10% { transform: skewX(-10eg); }
+  15% { transform: skewX(3deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+@keyframes doorschijn {
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes shaking {
+    0% {
+        transform: rotate(-3deg);
+    }
+    20% {
+        transform: rotate(3deg);
+    }
+    40% {
+        transform: rotate(-3deg);
+    }
+    60% {
+        transform: rotate(3deg);
+    }
+    80% {
+        transform: rotate(-3deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1)
+    }
+    50% {
+        transform: scale(0.5)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1)
+    }
+    50% {
+        transform: scale(0.5)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes FuckOff {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(70px);
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+}
+
+@keyframes textBig {
+    0% {
+        font-size: 1.5em;
+    }
+    50% {
+        font-size: 1.6em;
+    }
+}
+
+@keyframes zoomOut {
+    0% {
+        transform: scale(1.3)
+    }
+    100% {
+        transform: scale(0)
+    }
 }
 
 /* -------------------- Responsive design -------------------- */
 
-/* scherm: kleiner dan 2000*/
-@media screen and (max-width: 2000px) {
+
+/* scherm: groter dan 2000*/
+/*@media screen and (min-width: 2000px) {
     #video-placeholder {
         width: 1000px;
-        height: 500px;
-    }
-}
-
-/* scherm: kleiner dan 2000*/
-@media screen and (min-width: 2000px) {
-    #video-placeholder {
-        width: 2000px;
-        height: 1000px; }
+        height: 500px; }
         .voice1 { margin-top: -975px; }
         .voice1h { margin-top: -975px; }
         .voice2 { margin-top: -975px; }
         .voice2n { margin-top: -100px; }
         .voice2h { margin-top: -100px; }
         .voice4 { margin-top: -30px; }
-    }
-}
+    }*/
 
-/* laptop: kleiner dan 1024*/
-@media screen and (max-width: 2000x) {
+/* laptop: groter dan 1024*/
+/*@media screen and (min-width: 1024x) {
     #video-placeholder {
         width: 800px;
         height: 400px; }
@@ -444,10 +607,23 @@ iframe{
         .voice2n { margin-top: -75px; }
         .voice2h { margin-top: -75px; }
         .voice4 { margin-top: -30px; }
-       }
+       }*/
+
+/* laptop: kleiner dan 1024*/
+/*@media screen and (max-width: 1024x) {
+    #video-placeholder {
+        width: 700px;
+        height: 350px; }
+        .voice1 { margin-top: -410px; }
+        .voice1h { margin-top: -410px; }
+        .voice2 { margin-top: -75px; }
+        .voice2n { margin-top: -75px; }
+        .voice2h { margin-top: -75px; }
+        .voice4 { margin-top: -30px; }
+       }*/
 
 /* tablet: kleiner dan 768*/
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     #video-placeholder {
         width: 600px;
         height: 300px;
@@ -462,15 +638,4 @@ iframe{
         #closed-captions p {
         font-size: 1em;
     }
-}
-
-/* mobiel: kleiner dan 414*/
-@media screen and (max-width: 414px) {
-    #video-placeholder {
-        width: 200px;
-        height: 100px;
-    }
-        #closed-captions p {
-        font-size: 0.5em;
-    }
-}
+}*/
