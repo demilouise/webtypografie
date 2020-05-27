@@ -1,4 +1,4 @@
-![](https://iili.io/JjN3fp.png)
+![](https://iili.io/JjNKgI.png)
 
 # [Link naar fragment](https://demilouise.github.io/webanimatie/)
 
